@@ -34,7 +34,7 @@ const PacientesProvider = ({children}) => {
             }
         }
         obtenerPacientes();
-    }, [])
+    }, [auth])
 
     //Nota: en vez de mandar la funcion setPacientes vamos a crear una funcion (guardarPaciente)
     const guardarPaciente = async (paciente) => {
